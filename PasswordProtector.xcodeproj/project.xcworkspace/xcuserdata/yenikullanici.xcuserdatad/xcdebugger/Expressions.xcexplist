@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "ViewController.getData():ViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "DetailsViewController.saveClick(_:):DetailsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "(NSManagedObject)newInformation">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

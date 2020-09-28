@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ZSE-yy-UHW">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="b9Q-RY-z3g">
+            <objects>
+                <viewController id="ZSE-yy-UHW" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleAspectFill" id="jaE-ky-FQN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchIcon" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nw2-BG-x6S">
+                                <rect key="frame" x="88" y="234" width="199" height="199"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="from" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wK9-Ow-RPL">
+                                <rect key="frame" x="171" y="555" width="32" height="18"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="VAKT-İ HAZAR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZXq-JT-DTU">
+                                <rect key="frame" x="124" y="581" width="126" height="23"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="23" id="gF0-LM-7w3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.63137254901960782" green="0.46274509803921571" blue="0.71372549019607845" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.63137254901960782" green="0.46274509803921571" blue="0.71372549019607845" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ZXq-JT-DTU" firstAttribute="leading" secondItem="16u-zO-cta" secondAttribute="leading" constant="124" id="13L-6S-wld"/>
+                            <constraint firstItem="wK9-Ow-RPL" firstAttribute="centerX" secondItem="jaE-ky-FQN" secondAttribute="centerX" id="1N8-Pw-1PJ"/>
+                            <constraint firstItem="wK9-Ow-RPL" firstAttribute="centerX" secondItem="ZXq-JT-DTU" secondAttribute="centerX" id="2k4-4z-rFK"/>
+                            <constraint firstItem="ZXq-JT-DTU" firstAttribute="top" secondItem="wK9-Ow-RPL" secondAttribute="bottom" constant="8" symbolic="YES" id="5SV-DC-Qcm"/>
+                            <constraint firstItem="Nw2-BG-x6S" firstAttribute="leading" secondItem="16u-zO-cta" secondAttribute="leading" constant="88" id="LVj-1r-4On"/>
+                            <constraint firstItem="Nw2-BG-x6S" firstAttribute="top" secondItem="16u-zO-cta" secondAttribute="top" constant="214" id="bkG-AF-Urz"/>
+                            <constraint firstItem="wK9-Ow-RPL" firstAttribute="leading" secondItem="16u-zO-cta" secondAttribute="leading" constant="171" id="bx0-Pu-VTr"/>
+                            <constraint firstItem="16u-zO-cta" firstAttribute="bottom" secondItem="ZXq-JT-DTU" secondAttribute="bottom" constant="63" id="cF0-1e-YBy"/>
+                            <constraint firstItem="Nw2-BG-x6S" firstAttribute="centerX" secondItem="wK9-Ow-RPL" secondAttribute="centerX" id="pdO-7q-9sY"/>
+                            <constraint firstItem="Nw2-BG-x6S" firstAttribute="centerY" secondItem="jaE-ky-FQN" secondAttribute="centerY" id="xbo-ij-B6i"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="16u-zO-cta"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vPO-Lv-hmm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-258.39999999999998" y="-6.746626686656672"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="LaunchIcon" width="341" height="341"/>
+    </resources>
+</document>
