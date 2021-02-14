@@ -1,4 +1,4 @@
-# Uygulama hakkında
+# Uygulama Hakkında
 
 Şifrelerin tek bir uygulama üzerinde kolaylıkla ve güvenle saklanması,hızlıca erişilebilmesi ve dilendiği takdirde kolaylıkla paylaşılabilmesi adına
 bu uygulamayı geliştirdim.
@@ -17,5 +17,5 @@ yalnızca core data veritabanında saklanmakta ve üçüncü parti herhangi bir 
 
 ## Ekran Görüntüleri
 
-![](https://github.com/busranurok/PasswordProtected/blob/master/images/pp1.jpeg) | width=50
+![](https://github.com/busranurok/PasswordProtected/blob/master/images/pp1.jpeg) | width=15
 
