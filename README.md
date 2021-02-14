@@ -23,5 +23,5 @@ yalnızca core data veritabanında saklanmakta ve üçüncü parti herhangi bir 
 <img src="https://github.com/busranurok/PasswordProtected/blob/master/images/pp3.jpeg" width="200" height="340" align="left">
 <img src="https://github.com/busranurok/PasswordProtected/blob/master/images/pp4.jpeg" width="200" height="340" align="left">
 <img src="https://github.com/busranurok/PasswordProtected/blob/master/images/pp5.jpeg" width="200" height="340" align="left" >
-<img src="https://github.com/busranurok/PasswordProtected/blob/master/images/pp6.jpeg" width="200" height="340" align="right">
+<img src="https://github.com/busranurok/PasswordProtected/blob/master/images/pp6.jpeg" width="200" height="340" align="left">
 
