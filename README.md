@@ -17,5 +17,5 @@ yalnızca core data veritabanında saklanmakta ve üçüncü parti herhangi bir 
 
 ## Ekran Görüntüleri
 
-![](https://github.com/busranurok/PasswordProtected/blob/master/images/pp1.jpeg){:height="10px" width="10px"} 
+![](https://github.com/busranurok/PasswordProtected/blob/master/images/pp1.jpeg?s=30)
 
